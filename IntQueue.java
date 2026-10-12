@@ -42,7 +42,7 @@ public class IntQueue {
         if (this.isEmpty()) {
             throw new NoSuchElementException("Queue is empty");
         }
-
+    
         return this.queue[this.firstIndex];
     }
 
