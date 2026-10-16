@@ -37,7 +37,7 @@ public class IntQueue {
 
         return topElement;
     }
-    
+
     public int peek() {
         if (this.isEmpty()) {
             throw new NoSuchElementException("Queue is empty");
