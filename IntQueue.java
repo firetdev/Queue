@@ -5,7 +5,7 @@ public class IntQueue {
     private int firstIndex;
     private int lastIndex;
     private int size;
-
+    
     public IntQueue(int len) {
         this.queue = new int[len];
         this.firstIndex = 0;
